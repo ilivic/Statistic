@@ -1,0 +1,21 @@
+﻿<Window x:Class="Statistic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Statistic"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStyle="None"  MouseLeftButtonDown="Window_MouseLeftButtonDown" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="T" Background="SkyBlue" Click="ClEventChTheme"  Margin="10,0,10,0"/>
+            <Button Content="_" Background="SkyBlue" Click="ClEventHidden" Margin="10,0,10,0"/>
+            <Button Content="X" Background="Pink" Click="ClEventExit" Margin="10,0,10,0"/>
+        </StackPanel>
+        <Frame Grid.Row="1" x:Name="MianFrame" NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>

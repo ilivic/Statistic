@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище StatisticDataBaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Meters">
+          <Key>
+            <PropertyRef Name="Id_Meters" />
+          </Key>
+          <Property Name="Id_Meters" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar(max)" Nullable="false" />
+          <Property Name="Type_id" Type="int" />
+          <Property Name="OBJ_id" Type="int" Nullable="false" />
+          <Property Name="Price" Type="money" />
+        </EntityType>
+        <EntityType Name="OBJ">
+          <Key>
+            <PropertyRef Name="Id_OBJ" />
+          </Key>
+          <Property Name="Id_OBJ" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar(max)" Nullable="false" />
+          <Property Name="Adress" Type="varchar(max)" Nullable="false" />
+          <Property Name="User_id" Type="int" Nullable="false" />
+          <Property Name="DataAdd" Type="date" Nullable="false" />
+          <Property Name="Period_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Periods">
+          <Key>
+            <PropertyRef Name="Id_period" />
+          </Key>
+          <Property Name="Id_period" Type="int" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PeriodsRead">
+          <Key>
+            <PropertyRef Name="Id_PR" />
+          </Key>
+          <Property Name="Id_PR" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_periods" Type="int" Nullable="false" />
+          <Property Name="DateP" Type="date" Nullable="false" />
+          <Property Name="id_obj" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ReadMeters">
+          <Key>
+            <PropertyRef Name="Id_RM" />
+          </Key>
+          <Property Name="Id_RM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Count" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="PR_id" Type="int" Nullable="false" />
+          <Property Name="Meters_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Recommendations">
+          <Key>
+            <PropertyRef Name="Id_recomendations" />
+          </Key>
+          <Property Name="Id_recomendations" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PR_id" Type="int" Nullable="false" />
+          <Property Name="typeRecom_id" Type="int" />
+          <Property Name="Date" Type="date" Nullable="false" />
+          <Property Name="TypeSpecialRecom_id" Type="int" />
+        </EntityType>
+        <EntityType Name="TypeMeters">
+          <Key>
+            <PropertyRef Name="Id_TM" />
+          </Key>
+          <Property Name="Id_TM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Info" Type="text" />
+          <Property Name="Unit" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TypeRecome">
+          <Key>
+            <PropertyRef Name="Id_TypeRecom" />
+          </Key>
+          <Property Name="Id_TypeRecom" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Info" Type="text" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TypeSpecialRecom">
+          <Key>
+            <PropertyRef Name="Id_TypeSpecialRecom" />
+          </Key>
+          <Property Name="Id_TypeSpecialRecom" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="diskription" Type="text" Nullable="false" />
+          <Property Name="Price" Type="money" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id_User" />
+          </Key>
+          <Property Name="Id_User" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar(max)" Nullable="false" />
+          <Property Name="Photo" Type="image" />
+          <Property Name="Email" Type="varchar(max)" />
+          <Property Name="Login" Type="varchar(max)" Nullable="false" />
+          <Property Name="password" Type="varchar(max)" Nullable="false" />
+          <Property Name="Balance" Type="money" Nullable="false" />
+          <Property Name="DateRegist" Type="date" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Meters_OBJ">
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="1" />
+          <End Role="Meters" Type="Self.Meters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OBJ">
+              <PropertyRef Name="Id_OBJ" />
+            </Principal>
+            <Dependent Role="Meters">
+              <PropertyRef Name="OBJ_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meters_TypeMeters">
+          <End Role="TypeMeters" Type="Self.TypeMeters" Multiplicity="0..1" />
+          <End Role="Meters" Type="Self.Meters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeMeters">
+              <PropertyRef Name="Id_TM" />
+            </Principal>
+            <Dependent Role="Meters">
+              <PropertyRef Name="Type_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OBJ_Periods">
+          <End Role="Periods" Type="Self.Periods" Multiplicity="1" />
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Periods">
+              <PropertyRef Name="Id_period" />
+            </Principal>
+            <Dependent Role="OBJ">
+              <PropertyRef Name="Period_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OBJ_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id_User" />
+            </Principal>
+            <Dependent Role="OBJ">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PeriodsRead_OBJ">
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="1" />
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OBJ">
+              <PropertyRef Name="Id_OBJ" />
+            </Principal>
+            <Dependent Role="PeriodsRead">
+              <PropertyRef Name="id_obj" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PeriodsRead_Periods">
+          <End Role="Periods" Type="Self.Periods" Multiplicity="1" />
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Periods">
+              <PropertyRef Name="Id_period" />
+            </Principal>
+            <Dependent Role="PeriodsRead">
+              <PropertyRef Name="id_periods" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ReadMeters_Meters">
+          <End Role="Meters" Type="Self.Meters" Multiplicity="1" />
+          <End Role="ReadMeters" Type="Self.ReadMeters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Meters">
+              <PropertyRef Name="Id_Meters" />
+            </Principal>
+            <Dependent Role="ReadMeters">
+              <PropertyRef Name="Meters_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ReadMeters_PeriodsRead">
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="1" />
+          <End Role="ReadMeters" Type="Self.ReadMeters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PeriodsRead">
+              <PropertyRef Name="Id_PR" />
+            </Principal>
+            <Dependent Role="ReadMeters">
+              <PropertyRef Name="PR_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendations_PeriodsRead">
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="1" />
+          <End Role="Recommendations" Type="Self.Recommendations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PeriodsRead">
+              <PropertyRef Name="Id_PR" />
+            </Principal>
+            <Dependent Role="Recommendations">
+              <PropertyRef Name="PR_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendations_TypeRecome">
+          <End Role="TypeRecome" Type="Self.TypeRecome" Multiplicity="0..1" />
+          <End Role="Recommendations" Type="Self.Recommendations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeRecome">
+              <PropertyRef Name="Id_TypeRecom" />
+            </Principal>
+            <Dependent Role="Recommendations">
+              <PropertyRef Name="typeRecom_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendations_TypeSpecialRecom">
+          <End Role="TypeSpecialRecom" Type="Self.TypeSpecialRecom" Multiplicity="0..1" />
+          <End Role="Recommendations" Type="Self.Recommendations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeSpecialRecom">
+              <PropertyRef Name="Id_TypeSpecialRecom" />
+            </Principal>
+            <Dependent Role="Recommendations">
+              <PropertyRef Name="TypeSpecialRecom_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище StatisticDataBaseModelContainer">
+          <EntitySet Name="Meters" EntityType="Self.Meters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OBJ" EntityType="Self.OBJ" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Periods" EntityType="Self.Periods" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PeriodsRead" EntityType="Self.PeriodsRead" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ReadMeters" EntityType="Self.ReadMeters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Recommendations" EntityType="Self.Recommendations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TypeMeters" EntityType="Self.TypeMeters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TypeRecome" EntityType="Self.TypeRecome" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TypeSpecialRecom" EntityType="Self.TypeSpecialRecom" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Meters_OBJ" Association="Self.FK_Meters_OBJ">
+            <End Role="OBJ" EntitySet="OBJ" />
+            <End Role="Meters" EntitySet="Meters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meters_TypeMeters" Association="Self.FK_Meters_TypeMeters">
+            <End Role="TypeMeters" EntitySet="TypeMeters" />
+            <End Role="Meters" EntitySet="Meters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OBJ_Periods" Association="Self.FK_OBJ_Periods">
+            <End Role="Periods" EntitySet="Periods" />
+            <End Role="OBJ" EntitySet="OBJ" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OBJ_Users" Association="Self.FK_OBJ_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="OBJ" EntitySet="OBJ" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PeriodsRead_OBJ" Association="Self.FK_PeriodsRead_OBJ">
+            <End Role="OBJ" EntitySet="OBJ" />
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PeriodsRead_Periods" Association="Self.FK_PeriodsRead_Periods">
+            <End Role="Periods" EntitySet="Periods" />
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ReadMeters_Meters" Association="Self.FK_ReadMeters_Meters">
+            <End Role="Meters" EntitySet="Meters" />
+            <End Role="ReadMeters" EntitySet="ReadMeters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ReadMeters_PeriodsRead" Association="Self.FK_ReadMeters_PeriodsRead">
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+            <End Role="ReadMeters" EntitySet="ReadMeters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendations_PeriodsRead" Association="Self.FK_Recommendations_PeriodsRead">
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+            <End Role="Recommendations" EntitySet="Recommendations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendations_TypeRecome" Association="Self.FK_Recommendations_TypeRecome">
+            <End Role="TypeRecome" EntitySet="TypeRecome" />
+            <End Role="Recommendations" EntitySet="Recommendations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendations_TypeSpecialRecom" Association="Self.FK_Recommendations_TypeSpecialRecom">
+            <End Role="TypeSpecialRecom" EntitySet="TypeSpecialRecom" />
+            <End Role="Recommendations" EntitySet="Recommendations" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="StatisticDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Meters">
+          <Key>
+            <PropertyRef Name="Id_Meters" />
+          </Key>
+          <Property Name="Id_Meters" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Type_id" Type="Int32" />
+          <Property Name="OBJ_id" Type="Int32" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="OBJ" Relationship="Self.FK_Meters_OBJ" FromRole="Meters" ToRole="OBJ" />
+          <NavigationProperty Name="TypeMeters" Relationship="Self.FK_Meters_TypeMeters" FromRole="Meters" ToRole="TypeMeters" />
+          <NavigationProperty Name="ReadMeters" Relationship="Self.FK_ReadMeters_Meters" FromRole="Meters" ToRole="ReadMeters" />
+        </EntityType>
+        <EntityType Name="OBJ">
+          <Key>
+            <PropertyRef Name="Id_OBJ" />
+          </Key>
+          <Property Name="Id_OBJ" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Adress" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="User_id" Type="Int32" Nullable="false" />
+          <Property Name="DataAdd" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Period_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Meters" Relationship="Self.FK_Meters_OBJ" FromRole="OBJ" ToRole="Meters" />
+          <NavigationProperty Name="Periods" Relationship="Self.FK_OBJ_Periods" FromRole="OBJ" ToRole="Periods" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_OBJ_Users" FromRole="OBJ" ToRole="Users" />
+          <NavigationProperty Name="PeriodsRead" Relationship="Self.FK_PeriodsRead_OBJ" FromRole="OBJ" ToRole="PeriodsRead" />
+        </EntityType>
+        <EntityType Name="Periods">
+          <Key>
+            <PropertyRef Name="Id_period" />
+          </Key>
+          <Property Name="Id_period" Type="Int32" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="OBJ" Relationship="Self.FK_OBJ_Periods" FromRole="Periods" ToRole="OBJ" />
+          <NavigationProperty Name="PeriodsRead" Relationship="Self.FK_PeriodsRead_Periods" FromRole="Periods" ToRole="PeriodsRead" />
+        </EntityType>
+        <EntityType Name="PeriodsRead">
+          <Key>
+            <PropertyRef Name="Id_PR" />
+          </Key>
+          <Property Name="Id_PR" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_periods" Type="Int32" Nullable="false" />
+          <Property Name="DateP" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="id_obj" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="OBJ" Relationship="Self.FK_PeriodsRead_OBJ" FromRole="PeriodsRead" ToRole="OBJ" />
+          <NavigationProperty Name="Periods" Relationship="Self.FK_PeriodsRead_Periods" FromRole="PeriodsRead" ToRole="Periods" />
+          <NavigationProperty Name="ReadMeters" Relationship="Self.FK_ReadMeters_PeriodsRead" FromRole="PeriodsRead" ToRole="ReadMeters" />
+          <NavigationProperty Name="Recommendations" Relationship="Self.FK_Recommendations_PeriodsRead" FromRole="PeriodsRead" ToRole="Recommendations" />
+        </EntityType>
+        <EntityType Name="ReadMeters">
+          <Key>
+            <PropertyRef Name="Id_RM" />
+          </Key>
+          <Property Name="Id_RM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Count" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="PR_id" Type="Int32" Nullable="false" />
+          <Property Name="Meters_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Meters" Relationship="Self.FK_ReadMeters_Meters" FromRole="ReadMeters" ToRole="Meters" />
+          <NavigationProperty Name="PeriodsRead" Relationship="Self.FK_ReadMeters_PeriodsRead" FromRole="ReadMeters" ToRole="PeriodsRead" />
+        </EntityType>
+        <EntityType Name="Recommendations">
+          <Key>
+            <PropertyRef Name="Id_recomendations" />
+          </Key>
+          <Property Name="Id_recomendations" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PR_id" Type="Int32" Nullable="false" />
+          <Property Name="typeRecom_id" Type="Int32" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="TypeSpecialRecom_id" Type="Int32" />
+          <NavigationProperty Name="PeriodsRead" Relationship="Self.FK_Recommendations_PeriodsRead" FromRole="Recommendations" ToRole="PeriodsRead" />
+          <NavigationProperty Name="TypeRecome" Relationship="Self.FK_Recommendations_TypeRecome" FromRole="Recommendations" ToRole="TypeRecome" />
+          <NavigationProperty Name="TypeSpecialRecom" Relationship="Self.FK_Recommendations_TypeSpecialRecom" FromRole="Recommendations" ToRole="TypeSpecialRecom" />
+        </EntityType>
+        <EntityType Name="TypeMeters">
+          <Key>
+            <PropertyRef Name="Id_TM" />
+          </Key>
+          <Property Name="Id_TM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Unit" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Meters" Relationship="Self.FK_Meters_TypeMeters" FromRole="TypeMeters" ToRole="Meters" />
+        </EntityType>
+        <EntityType Name="TypeRecome">
+          <Key>
+            <PropertyRef Name="Id_TypeRecom" />
+          </Key>
+          <Property Name="Id_TypeRecom" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Recommendations" Relationship="Self.FK_Recommendations_TypeRecome" FromRole="TypeRecome" ToRole="Recommendations" />
+        </EntityType>
+        <EntityType Name="TypeSpecialRecom">
+          <Key>
+            <PropertyRef Name="Id_TypeSpecialRecom" />
+          </Key>
+          <Property Name="Id_TypeSpecialRecom" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="diskription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <NavigationProperty Name="Recommendations" Relationship="Self.FK_Recommendations_TypeSpecialRecom" FromRole="TypeSpecialRecom" ToRole="Recommendations" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id_User" />
+          </Key>
+          <Property Name="Id_User" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Balance" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="DateRegist" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="OBJ" Relationship="Self.FK_OBJ_Users" FromRole="Users" ToRole="OBJ" />
+        </EntityType>
+        <Association Name="FK_Meters_OBJ">
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="1" />
+          <End Role="Meters" Type="Self.Meters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OBJ">
+              <PropertyRef Name="Id_OBJ" />
+            </Principal>
+            <Dependent Role="Meters">
+              <PropertyRef Name="OBJ_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meters_TypeMeters">
+          <End Role="TypeMeters" Type="Self.TypeMeters" Multiplicity="0..1" />
+          <End Role="Meters" Type="Self.Meters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeMeters">
+              <PropertyRef Name="Id_TM" />
+            </Principal>
+            <Dependent Role="Meters">
+              <PropertyRef Name="Type_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ReadMeters_Meters">
+          <End Role="Meters" Type="Self.Meters" Multiplicity="1" />
+          <End Role="ReadMeters" Type="Self.ReadMeters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Meters">
+              <PropertyRef Name="Id_Meters" />
+            </Principal>
+            <Dependent Role="ReadMeters">
+              <PropertyRef Name="Meters_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OBJ_Periods">
+          <End Role="Periods" Type="Self.Periods" Multiplicity="1" />
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Periods">
+              <PropertyRef Name="Id_period" />
+            </Principal>
+            <Dependent Role="OBJ">
+              <PropertyRef Name="Period_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OBJ_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id_User" />
+            </Principal>
+            <Dependent Role="OBJ">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PeriodsRead_OBJ">
+          <End Role="OBJ" Type="Self.OBJ" Multiplicity="1" />
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OBJ">
+              <PropertyRef Name="Id_OBJ" />
+            </Principal>
+            <Dependent Role="PeriodsRead">
+              <PropertyRef Name="id_obj" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PeriodsRead_Periods">
+          <End Role="Periods" Type="Self.Periods" Multiplicity="1" />
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Periods">
+              <PropertyRef Name="Id_period" />
+            </Principal>
+            <Dependent Role="PeriodsRead">
+              <PropertyRef Name="id_periods" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ReadMeters_PeriodsRead">
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="1" />
+          <End Role="ReadMeters" Type="Self.ReadMeters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PeriodsRead">
+              <PropertyRef Name="Id_PR" />
+            </Principal>
+            <Dependent Role="ReadMeters">
+              <PropertyRef Name="PR_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendations_PeriodsRead">
+          <End Role="PeriodsRead" Type="Self.PeriodsRead" Multiplicity="1" />
+          <End Role="Recommendations" Type="Self.Recommendations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PeriodsRead">
+              <PropertyRef Name="Id_PR" />
+            </Principal>
+            <Dependent Role="Recommendations">
+              <PropertyRef Name="PR_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendations_TypeRecome">
+          <End Role="TypeRecome" Type="Self.TypeRecome" Multiplicity="0..1" />
+          <End Role="Recommendations" Type="Self.Recommendations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeRecome">
+              <PropertyRef Name="Id_TypeRecom" />
+            </Principal>
+            <Dependent Role="Recommendations">
+              <PropertyRef Name="typeRecom_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recommendations_TypeSpecialRecom">
+          <End Role="TypeSpecialRecom" Type="Self.TypeSpecialRecom" Multiplicity="0..1" />
+          <End Role="Recommendations" Type="Self.Recommendations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TypeSpecialRecom">
+              <PropertyRef Name="Id_TypeSpecialRecom" />
+            </Principal>
+            <Dependent Role="Recommendations">
+              <PropertyRef Name="TypeSpecialRecom_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="StatisticDataBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Meters" EntityType="Self.Meters" />
+          <EntitySet Name="OBJ" EntityType="Self.OBJ" />
+          <EntitySet Name="Periods" EntityType="Self.Periods" />
+          <EntitySet Name="PeriodsRead" EntityType="Self.PeriodsRead" />
+          <EntitySet Name="ReadMeters" EntityType="Self.ReadMeters" />
+          <EntitySet Name="Recommendations" EntityType="Self.Recommendations" />
+          <EntitySet Name="TypeMeters" EntityType="Self.TypeMeters" />
+          <EntitySet Name="TypeRecome" EntityType="Self.TypeRecome" />
+          <EntitySet Name="TypeSpecialRecom" EntityType="Self.TypeSpecialRecom" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK_Meters_OBJ" Association="Self.FK_Meters_OBJ">
+            <End Role="OBJ" EntitySet="OBJ" />
+            <End Role="Meters" EntitySet="Meters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meters_TypeMeters" Association="Self.FK_Meters_TypeMeters">
+            <End Role="TypeMeters" EntitySet="TypeMeters" />
+            <End Role="Meters" EntitySet="Meters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ReadMeters_Meters" Association="Self.FK_ReadMeters_Meters">
+            <End Role="Meters" EntitySet="Meters" />
+            <End Role="ReadMeters" EntitySet="ReadMeters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OBJ_Periods" Association="Self.FK_OBJ_Periods">
+            <End Role="Periods" EntitySet="Periods" />
+            <End Role="OBJ" EntitySet="OBJ" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OBJ_Users" Association="Self.FK_OBJ_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="OBJ" EntitySet="OBJ" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PeriodsRead_OBJ" Association="Self.FK_PeriodsRead_OBJ">
+            <End Role="OBJ" EntitySet="OBJ" />
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PeriodsRead_Periods" Association="Self.FK_PeriodsRead_Periods">
+            <End Role="Periods" EntitySet="Periods" />
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ReadMeters_PeriodsRead" Association="Self.FK_ReadMeters_PeriodsRead">
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+            <End Role="ReadMeters" EntitySet="ReadMeters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendations_PeriodsRead" Association="Self.FK_Recommendations_PeriodsRead">
+            <End Role="PeriodsRead" EntitySet="PeriodsRead" />
+            <End Role="Recommendations" EntitySet="Recommendations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendations_TypeRecome" Association="Self.FK_Recommendations_TypeRecome">
+            <End Role="TypeRecome" EntitySet="TypeRecome" />
+            <End Role="Recommendations" EntitySet="Recommendations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recommendations_TypeSpecialRecom" Association="Self.FK_Recommendations_TypeSpecialRecom">
+            <End Role="TypeSpecialRecom" EntitySet="TypeSpecialRecom" />
+            <End Role="Recommendations" EntitySet="Recommendations" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище StatisticDataBaseModelContainer" CdmEntityContainer="StatisticDataBaseEntities">
+          <EntitySetMapping Name="Meters">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.Meters">
+              <MappingFragment StoreEntitySet="Meters">
+                <ScalarProperty Name="Id_Meters" ColumnName="Id_Meters" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Type_id" ColumnName="Type_id" />
+                <ScalarProperty Name="OBJ_id" ColumnName="OBJ_id" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OBJ">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.OBJ">
+              <MappingFragment StoreEntitySet="OBJ">
+                <ScalarProperty Name="Id_OBJ" ColumnName="Id_OBJ" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Adress" ColumnName="Adress" />
+                <ScalarProperty Name="User_id" ColumnName="User_id" />
+                <ScalarProperty Name="DataAdd" ColumnName="DataAdd" />
+                <ScalarProperty Name="Period_id" ColumnName="Period_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Periods">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.Periods">
+              <MappingFragment StoreEntitySet="Periods">
+                <ScalarProperty Name="Id_period" ColumnName="Id_period" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PeriodsRead">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.PeriodsRead">
+              <MappingFragment StoreEntitySet="PeriodsRead">
+                <ScalarProperty Name="Id_PR" ColumnName="Id_PR" />
+                <ScalarProperty Name="id_periods" ColumnName="id_periods" />
+                <ScalarProperty Name="DateP" ColumnName="DateP" />
+                <ScalarProperty Name="id_obj" ColumnName="id_obj" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ReadMeters">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.ReadMeters">
+              <MappingFragment StoreEntitySet="ReadMeters">
+                <ScalarProperty Name="Id_RM" ColumnName="Id_RM" />
+                <ScalarProperty Name="Count" ColumnName="Count" />
+                <ScalarProperty Name="PR_id" ColumnName="PR_id" />
+                <ScalarProperty Name="Meters_id" ColumnName="Meters_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Recommendations">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.Recommendations">
+              <MappingFragment StoreEntitySet="Recommendations">
+                <ScalarProperty Name="Id_recomendations" ColumnName="Id_recomendations" />
+                <ScalarProperty Name="PR_id" ColumnName="PR_id" />
+                <ScalarProperty Name="typeRecom_id" ColumnName="typeRecom_id" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="TypeSpecialRecom_id" ColumnName="TypeSpecialRecom_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TypeMeters">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.TypeMeters">
+              <MappingFragment StoreEntitySet="TypeMeters">
+                <ScalarProperty Name="Id_TM" ColumnName="Id_TM" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Info" ColumnName="Info" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TypeRecome">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.TypeRecome">
+              <MappingFragment StoreEntitySet="TypeRecome">
+                <ScalarProperty Name="Id_TypeRecom" ColumnName="Id_TypeRecom" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Info" ColumnName="Info" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TypeSpecialRecom">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.TypeSpecialRecom">
+              <MappingFragment StoreEntitySet="TypeSpecialRecom">
+                <ScalarProperty Name="Id_TypeSpecialRecom" ColumnName="Id_TypeSpecialRecom" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="diskription" ColumnName="diskription" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="StatisticDataBaseModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Id_User" ColumnName="Id_User" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Photo" ColumnName="Photo" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="Balance" ColumnName="Balance" />
+                <ScalarProperty Name="DateRegist" ColumnName="DateRegist" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

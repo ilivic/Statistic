@@ -1,0 +1,69 @@
+﻿<Page x:Class="Statistic.PageApp.PageReg"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Statistic.PageApp"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageReg">
+    <Page.Resources>
+        <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}">
+            <Setter Property="materialDesign:ColorZoneAssist.Mode" Value="Standard"/>
+            <Setter Property="Foreground" Value="#FF234B6E"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+
+        </Style>
+        <Style TargetType="{x:Type PasswordBox}" BasedOn="{StaticResource MaterialDesignFilledPasswordBox}">
+            <Setter Property="materialDesign:ColorZoneAssist.Mode" Value="Standard"/>
+            <Setter Property="Foreground" Value="#FF234B6E"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type Label}" BasedOn="{StaticResource MaterialDesignLabel}">
+            <Setter Property="materialDesign:ColorZoneAssist.Mode" Value="Standard"/>
+            <Setter Property="Foreground" Value="#FF234B6E"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style TargetType="{x:Type Button}" BasedOn="{StaticResource MaterialDesignFlatDarkButton}">
+            <Setter Property="materialDesign:ColorZoneAssist.Mode" Value="Standard"/>
+            <Setter Property="Foreground" Value="#FF234B6E"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label Content="Обязательные для заполнения"/>
+            <TextBox x:Name="TxtName" materialDesign:HintAssist.Hint="Имя"/>
+            <TextBox x:Name="TxtLogin" materialDesign:HintAssist.Hint="Логин для входа"/>
+            <TextBox x:Name="TxtPassword" materialDesign:HintAssist.Hint="Пароль"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <Label Content="Не обязательные"/>
+            <TextBox x:Name="TxtEmail" materialDesign:HintAssist.Hint="Электронная почта"/>
+            <Button Content="фото"/>
+        </StackPanel>
+        <Button Grid.Column="1" Grid.Row="2" Content="Отмена" Click="CLEventRevers"/>
+        <Button Grid.Column="2" Grid.Row="2" Content="Регистрация"/>
+    </Grid>
+</Page>
