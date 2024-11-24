@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Statistic.ClassApp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace Statistic.PageApp
     /// </summary>
     public partial class PageReg : Page
     {
+        public static byte[] _image {  get; set; }
         public PageReg()
         {
             InitializeComponent();
@@ -28,6 +30,31 @@ namespace Statistic.PageApp
         private void CLEventRevers(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new PageLogin());
+        }
+
+        private void ClEventGetPhoto(object sender, RoutedEventArgs e)
+        {
+            var _sel = ClassApp.ImageWork.GetImage();
+            if (_sel != null)
+            {
+                _image = _sel;
+            }
+        }
+
+        private void ClEventAddNewUser(object sender, RoutedEventArgs e)
+        {
+            if (TxtName.Text != "" && TxtLogin.Text != "" && TxtPassword.Text != "")
+            {
+                var answer = UsersTableWork.AddNewUser(TxtName.Text, TxtLogin.Text, TxtPassword.Text, TxtEmail.Text, _image);
+                if (answer == true)
+                {
+                    NavigationService.Navigate(new PageLogin());
+                }
+                else
+                {
+
+                }
+            }
         }
     }
 }

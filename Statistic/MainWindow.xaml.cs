@@ -35,7 +35,10 @@ namespace Statistic
 
         private void ClEventExit(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            if (MessageBox.Show("Вы уверенны, что хотите закрыть программу?", "", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            { 
+                this.Close();
+            }
         }
 
         private void ClEventHidden(object sender, RoutedEventArgs e)

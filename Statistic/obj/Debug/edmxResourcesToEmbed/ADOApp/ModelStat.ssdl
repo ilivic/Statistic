@@ -25,7 +25,7 @@
     <Key>
       <PropertyRef Name="Id_period" />
     </Key>
-    <Property Name="Id_period" Type="int" Nullable="false" />
+    <Property Name="Id_period" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityType Name="PeriodsRead">

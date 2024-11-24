@@ -4,105 +4,105 @@
     <EntitySetMapping Name="Meters">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.Meters">
         <MappingFragment StoreEntitySet="Meters">
-          <ScalarProperty Name="Id_Meters" ColumnName="Id_Meters" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Type_id" ColumnName="Type_id" />
-          <ScalarProperty Name="OBJ_id" ColumnName="OBJ_id" />
           <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="OBJ_id" ColumnName="OBJ_id" />
+          <ScalarProperty Name="Type_id" ColumnName="Type_id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id_Meters" ColumnName="Id_Meters" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="OBJ">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.OBJ">
         <MappingFragment StoreEntitySet="OBJ">
-          <ScalarProperty Name="Id_OBJ" ColumnName="Id_OBJ" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Adress" ColumnName="Adress" />
-          <ScalarProperty Name="User_id" ColumnName="User_id" />
-          <ScalarProperty Name="DataAdd" ColumnName="DataAdd" />
           <ScalarProperty Name="Period_id" ColumnName="Period_id" />
+          <ScalarProperty Name="DataAdd" ColumnName="DataAdd" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id_OBJ" ColumnName="Id_OBJ" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Periods">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.Periods">
         <MappingFragment StoreEntitySet="Periods">
-          <ScalarProperty Name="Id_period" ColumnName="Id_period" />
           <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id_period" ColumnName="Id_period" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PeriodsRead">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.PeriodsRead">
         <MappingFragment StoreEntitySet="PeriodsRead">
-          <ScalarProperty Name="Id_PR" ColumnName="Id_PR" />
-          <ScalarProperty Name="id_periods" ColumnName="id_periods" />
-          <ScalarProperty Name="DateP" ColumnName="DateP" />
           <ScalarProperty Name="id_obj" ColumnName="id_obj" />
+          <ScalarProperty Name="DateP" ColumnName="DateP" />
+          <ScalarProperty Name="id_periods" ColumnName="id_periods" />
+          <ScalarProperty Name="Id_PR" ColumnName="Id_PR" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="ReadMeters">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.ReadMeters">
         <MappingFragment StoreEntitySet="ReadMeters">
-          <ScalarProperty Name="Id_RM" ColumnName="Id_RM" />
-          <ScalarProperty Name="Count" ColumnName="Count" />
-          <ScalarProperty Name="PR_id" ColumnName="PR_id" />
           <ScalarProperty Name="Meters_id" ColumnName="Meters_id" />
+          <ScalarProperty Name="PR_id" ColumnName="PR_id" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Id_RM" ColumnName="Id_RM" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Recommendations">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.Recommendations">
         <MappingFragment StoreEntitySet="Recommendations">
-          <ScalarProperty Name="Id_recomendations" ColumnName="Id_recomendations" />
-          <ScalarProperty Name="PR_id" ColumnName="PR_id" />
-          <ScalarProperty Name="typeRecom_id" ColumnName="typeRecom_id" />
-          <ScalarProperty Name="Date" ColumnName="Date" />
           <ScalarProperty Name="TypeSpecialRecom_id" ColumnName="TypeSpecialRecom_id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="typeRecom_id" ColumnName="typeRecom_id" />
+          <ScalarProperty Name="PR_id" ColumnName="PR_id" />
+          <ScalarProperty Name="Id_recomendations" ColumnName="Id_recomendations" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="TypeMeters">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.TypeMeters">
         <MappingFragment StoreEntitySet="TypeMeters">
-          <ScalarProperty Name="Id_TM" ColumnName="Id_TM" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Info" ColumnName="Info" />
           <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id_TM" ColumnName="Id_TM" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="TypeRecome">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.TypeRecome">
         <MappingFragment StoreEntitySet="TypeRecome">
-          <ScalarProperty Name="Id_TypeRecom" ColumnName="Id_TypeRecom" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
           <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id_TypeRecom" ColumnName="Id_TypeRecom" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="TypeSpecialRecom">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.TypeSpecialRecom">
         <MappingFragment StoreEntitySet="TypeSpecialRecom">
-          <ScalarProperty Name="Id_TypeSpecialRecom" ColumnName="Id_TypeSpecialRecom" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="diskription" ColumnName="diskription" />
           <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="diskription" ColumnName="diskription" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id_TypeSpecialRecom" ColumnName="Id_TypeSpecialRecom" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.Users">
         <MappingFragment StoreEntitySet="Users">
-          <ScalarProperty Name="Id_User" ColumnName="Id_User" />
-          <ScalarProperty Name="Name" ColumnName="Name" />
-          <ScalarProperty Name="Photo" ColumnName="Photo" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="Login" ColumnName="Login" />
-          <ScalarProperty Name="password" ColumnName="password" />
-          <ScalarProperty Name="Balance" ColumnName="Balance" />
           <ScalarProperty Name="DateRegist" ColumnName="DateRegist" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id_User" ColumnName="Id_User" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

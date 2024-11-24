@@ -42,3 +42,11 @@ C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\Pag
 C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageLogin.baml
 C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageReg.g.cs
 C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageReg.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageMenuHome.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageMenuHome.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageAddHome.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageCorrHome.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageAddHome.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageCorrHome.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageShowUser.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageShowUser.baml

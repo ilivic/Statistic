@@ -140,12 +140,29 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ClassApp\ClassAllEvent.cs" />
     <Compile Include="ClassApp\ClassCorr.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="PageApp\LocalPageApp\PageShowUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\PageAddHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\PageCorrHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PageApp\PageLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\PageMenuHome.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -155,8 +172,20 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PageApp\LocalPageApp\PageShowUser.xaml.cs">
+      <DependentUpon>PageShowUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageApp\PageAddHome.xaml.cs">
+      <DependentUpon>PageAddHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageApp\PageCorrHome.xaml.cs">
+      <DependentUpon>PageCorrHome.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PageApp\PageLogin.xaml.cs">
       <DependentUpon>PageLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageApp\PageMenuHome.xaml.cs">
+      <DependentUpon>PageMenuHome.xaml</DependentUpon>
     </Compile>
     <Compile Include="PageApp\PageReg.xaml.cs">
       <DependentUpon>PageReg.xaml</DependentUpon>
