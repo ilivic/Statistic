@@ -15,7 +15,7 @@ namespace Statistic.ADOApp
     public partial class ReadMeters
     {
         public int Id_RM { get; set; }
-        public string Count { get; set; }
+        public float Count { get; set; }
         public int PR_id { get; set; }
         public int Meters_id { get; set; }
     

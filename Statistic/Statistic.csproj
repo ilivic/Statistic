@@ -69,6 +69,7 @@
     <Reference Include="System.Security" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -87,6 +88,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="PageApp\LocalPageApp\PagePushHistStat.xaml.cs">
+      <DependentUpon>PagePushHistStat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageApp\LocalPageApp\PagePushParam.xaml.cs">
+      <DependentUpon>PagePushParam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageApp\LocalPageApp\PageSaportStat.xaml.cs">
+      <DependentUpon>PageSaportStat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowCreater.xaml.cs">
+      <DependentUpon>WindowCreater.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -146,6 +159,30 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="PageApp\LocalPageApp\PageAddCounter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\LocalPageApp\PageBalance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\LocalPageApp\PagePushHistStat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\LocalPageApp\PagePushParam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\LocalPageApp\PageSaportStat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageApp\LocalPageApp\PageShowCounter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PageApp\LocalPageApp\PageShowUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -170,8 +207,21 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="WindowCreater.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PageApp\LocalPageApp\PageAddCounter.xaml.cs">
+      <DependentUpon>PageAddCounter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageApp\LocalPageApp\PageBalance.xaml.cs">
+      <DependentUpon>PageBalance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageApp\LocalPageApp\PageShowCounter.xaml.cs">
+      <DependentUpon>PageShowCounter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PageApp\LocalPageApp\PageShowUser.xaml.cs">
       <DependentUpon>PageShowUser.xaml</DependentUpon>
     </Compile>
@@ -234,6 +284,7 @@
       <DependentUpon>ModelStat.edmx</DependentUpon>
       <LastGenOutput>ModelStat.cs</LastGenOutput>
     </Content>
+    <Resource Include="ResApp\photo_2024-12-06_15-54-24.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

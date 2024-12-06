@@ -29,11 +29,11 @@ namespace Statistic.ADOApp
         public virtual DbSet<OBJ> OBJ { get; set; }
         public virtual DbSet<Periods> Periods { get; set; }
         public virtual DbSet<PeriodsRead> PeriodsRead { get; set; }
-        public virtual DbSet<ReadMeters> ReadMeters { get; set; }
         public virtual DbSet<Recommendations> Recommendations { get; set; }
         public virtual DbSet<TypeMeters> TypeMeters { get; set; }
         public virtual DbSet<TypeRecome> TypeRecome { get; set; }
         public virtual DbSet<TypeSpecialRecom> TypeSpecialRecom { get; set; }
         public virtual DbSet<Users> Users { get; set; }
+        public virtual DbSet<ReadMeters> ReadMeters { get; set; }
     }
 }

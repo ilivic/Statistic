@@ -50,3 +50,17 @@ C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\Pag
 C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\PageCorrHome.baml
 C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageShowUser.g.cs
 C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageShowUser.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageBalance.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageBalance.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageAddCounter.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageShowCounter.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageAddCounter.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageShowCounter.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\WindowCreater.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\WindowCreater.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PagePushParam.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PagePushParam.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PagePushHistStat.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PagePushHistStat.baml
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageSaportStat.g.cs
+C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\PageApp\LocalPageApp\PageSaportStat.baml

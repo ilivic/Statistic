@@ -17,8 +17,8 @@ namespace Statistic.ADOApp
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public PeriodsRead()
         {
-            this.ReadMeters = new HashSet<ReadMeters>();
             this.Recommendations = new HashSet<Recommendations>();
+            this.ReadMeters = new HashSet<ReadMeters>();
         }
     
         public int Id_PR { get; set; }
@@ -29,8 +29,8 @@ namespace Statistic.ADOApp
         public virtual OBJ OBJ { get; set; }
         public virtual Periods Periods { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ReadMeters> ReadMeters { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Recommendations> Recommendations { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<ReadMeters> ReadMeters { get; set; }
     }
 }

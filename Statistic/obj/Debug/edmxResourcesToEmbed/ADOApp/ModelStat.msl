@@ -42,16 +42,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="ReadMeters">
-      <EntityTypeMapping TypeName="StatisticDataBaseModel.ReadMeters">
-        <MappingFragment StoreEntitySet="ReadMeters">
-          <ScalarProperty Name="Meters_id" ColumnName="Meters_id" />
-          <ScalarProperty Name="PR_id" ColumnName="PR_id" />
-          <ScalarProperty Name="Count" ColumnName="Count" />
-          <ScalarProperty Name="Id_RM" ColumnName="Id_RM" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Recommendations">
       <EntityTypeMapping TypeName="StatisticDataBaseModel.Recommendations">
         <MappingFragment StoreEntitySet="Recommendations">
@@ -103,6 +93,16 @@
           <ScalarProperty Name="Photo" ColumnName="Photo" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Id_User" ColumnName="Id_User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReadMeters">
+      <EntityTypeMapping TypeName="StatisticDataBaseModel.ReadMeters">
+        <MappingFragment StoreEntitySet="ReadMeters">
+          <ScalarProperty Name="Meters_id" ColumnName="Meters_id" />
+          <ScalarProperty Name="PR_id" ColumnName="PR_id" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Id_RM" ColumnName="Id_RM" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

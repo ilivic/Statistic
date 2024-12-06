@@ -1,6 +1,7 @@
 ﻿using Statistic.ClassApp;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,6 +47,42 @@ namespace Statistic.PageApp
         {
                 ClassCorr.CorrHome= null;
                 NavigationService.Navigate(new PageMenuHome());
+        }
+
+        private void ClEventBalance(object sender, RoutedEventArgs e)
+        {
+            LitleFrame.NavigationService.Navigate(new LocalPageApp.PageBalance());
+        }
+
+        private void ClEventAddCaunter(object sender, RoutedEventArgs e)
+        {
+            LitleFrame.NavigationService.Navigate(new LocalPageApp.PageAddCounter());
+        }
+
+        private void ClEventShowCounter(object sender, RoutedEventArgs e)
+        {
+            LitleFrame.NavigationService.Navigate(new LocalPageApp.PageShowCounter());
+        }
+
+        private void ClEventShowCreater(object sender, RoutedEventArgs e)
+        {
+           WindowCreater window = new WindowCreater();
+            window.ShowDialog();
+        }
+
+        private void ClEventOpenGaid(object sender, RoutedEventArgs e)
+        {
+            Process.Start("gaid.pdf");
+        }
+
+        private void ClEventPushParam(object sender, RoutedEventArgs e)
+        {
+            LitleFrame.NavigationService.Navigate(new LocalPageApp.PagePushParam());
+        }
+
+        private void ClEventShowHist(object sender, RoutedEventArgs e)
+        {
+            LitleFrame.NavigationService.Navigate(new LocalPageApp.PagePushHistStat());
         }
     }
 }

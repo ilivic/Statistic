@@ -3,48 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\pagecorrhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagecorrhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pagesaportstat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagesaportstat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pageshowuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageshowuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pagesaportstat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagesaportstat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\pagecorrhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pageshowcounter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageshowcounter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pagepushhiststat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagepushhiststat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pagepushhiststat.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagepushhiststat.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pagepushparam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagepushparam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pagepushparam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagepushparam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pagecorrhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagecorrhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\pageaddhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pagecorrhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagecorrhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\adoapp\\modelstat.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\adoapp\\modelstat.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pageaddhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pageaddhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\localpageapp\\pageaddcounter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageaddcounter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\localpageapp\\pageshowcounter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageshowcounter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\windowcreater.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\windowcreater.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\windowcreater.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\windowcreater.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pageaddhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pageaddhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\pagemenuhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagemenuhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\localpageapp\\pageshowuser.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageshowuser.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\localpageapp\\pageaddcounter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageaddcounter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\pagemenuhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagemenuhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\pageaddhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pageaddhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\classapp\\classallevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\classapp\\classallevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\classapp\\classallevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\adoapp\\modelstat.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\adoapp\\modelstat.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\localpageapp\\pagebalance.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagebalance.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\localpageapp\\pagebalance.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pagebalance.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\localpageapp\\pageshowuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageshowuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pagemenuhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagemenuhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\localpageapp\\pageshowuser.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\localpageapp\\pageshowuser.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pagemenuhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagemenuhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pagelogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,20 +127,12 @@
       "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagereg.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|c:\\users\\ilivic\\desktop\\\u0431\u0435\u043B\u043E\u0447\u043A\u0430\\statistic\\statistic\\pageapp\\pagereg.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\pageapp\\pagereg.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\pageapp\\pagereg.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\statistic\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FDF4954-C669-490D-B710-4209F528C226}|Statistic\\Statistic.csproj|solutionrelative:statistic\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,194 +142,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PageShowUser.xaml",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
-              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T13:29:00.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PageCorrHome.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml.cs",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageCorrHome.xaml.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml.cs",
-              "RelativeToolTip": "Statistic\\PageApp\\PageCorrHome.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:23:47.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PageAddHome.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml.cs",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageAddHome.xaml.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml.cs",
-              "RelativeToolTip": "Statistic\\PageApp\\PageAddHome.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwCwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:54:29.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PageCorrHome.xaml",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageCorrHome.xaml",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml",
-              "RelativeToolTip": "Statistic\\PageApp\\PageCorrHome.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T12:46:18.061Z",
+              "Title": "PageSaportStat.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:01:33.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PageAddHome.xaml",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageAddHome.xaml",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml",
-              "RelativeToolTip": "Statistic\\PageApp\\PageAddHome.xaml",
+              "DocumentIndex": 1,
+              "Title": "PageSaportStat.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageSaportStat.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T12:44:11.719Z",
+              "WhenOpened": "2024-12-06T15:00:37.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PageMenuHome.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml.cs",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageMenuHome.xaml.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml.cs",
-              "RelativeToolTip": "Statistic\\PageApp\\PageMenuHome.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowB8AAAAkAAAA",
+              "Title": "PageCorrHome.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageCorrHome.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\PageCorrHome.xaml.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAQwFQAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:34:01.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PageMenuHome.xaml",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageMenuHome.xaml",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml",
-              "RelativeToolTip": "Statistic\\PageApp\\PageMenuHome.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T12:18:52.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Statistic\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Statistic\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwvy4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:25:58.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PageShowUser.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
-              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAowCoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:34:14.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClassAllEvent.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassAllEvent.cs",
-              "RelativeDocumentMoniker": "Statistic\\ClassApp\\ClassAllEvent.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassAllEvent.cs",
-              "RelativeToolTip": "Statistic\\ClassApp\\ClassAllEvent.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwDsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:55:23.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PageReg.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml.cs",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageReg.xaml.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml.cs",
-              "RelativeToolTip": "Statistic\\PageApp\\PageReg.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwCsAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T09:14:05.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PageLogin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml.cs",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageLogin.xaml.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml.cs",
-              "RelativeToolTip": "Statistic\\PageApp\\PageLogin.xaml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T09:12:47.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PageReg.xaml",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageReg.xaml",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml",
-              "RelativeToolTip": "Statistic\\PageApp\\PageReg.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T09:05:05.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PageLogin.xaml",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml",
-              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageLogin.xaml",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml",
-              "RelativeToolTip": "Statistic\\PageApp\\PageLogin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T08:40:08.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\App.xaml",
-              "RelativeDocumentMoniker": "Statistic\\App.xaml",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\App.xaml",
-              "RelativeToolTip": "Statistic\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-24T08:28:25.096Z",
+              "WhenOpened": "2024-11-24T13:23:47.714Z",
               "EditorCaption": ""
             },
             {
@@ -286,24 +192,125 @@
               "RelativeToolTip": "Statistic\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T08:24:34.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ClassCorr.cs",
-              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassCorr.cs",
-              "RelativeDocumentMoniker": "Statistic\\ClassApp\\ClassCorr.cs",
-              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassCorr.cs",
-              "RelativeToolTip": "Statistic\\ClassApp\\ClassCorr.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T08:24:28.072Z",
+              "WhenOpened": "2024-11-24T08:24:34.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "PageShowCounter.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowCkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:19:36.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagePushHistStat.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T14:39:59.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PagePushParam.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:54:48.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagePushHistStat.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PagePushHistStat.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowCMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:50:45.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagePushParam.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PagePushParam.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T13:23:54.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageCorrHome.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageCorrHome.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageCorrHome.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\PageCorrHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T12:46:18.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageShowCounter.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageShowCounter.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T15:46:19.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Statistic\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvy4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T07:25:58.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageAddCounter.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACoAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:12:06.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ModelStat.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ADOApp\\ModelStat.edmx",
               "RelativeDocumentMoniker": "Statistic\\ADOApp\\ModelStat.edmx",
@@ -312,6 +319,56 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2024-11-24T08:21:14.014Z",
               "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PageAddHome.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageAddHome.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\PageAddHome.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwCwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:54:29.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PageShowUser.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T13:29:00.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WindowCreater.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\WindowCreater.xaml",
+              "RelativeDocumentMoniker": "Statistic\\WindowCreater.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\WindowCreater.xaml",
+              "RelativeToolTip": "Statistic\\WindowCreater.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T12:50:00.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WindowCreater.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\WindowCreater.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\WindowCreater.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\WindowCreater.xaml.cs",
+              "RelativeToolTip": "Statistic\\WindowCreater.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:03:36.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -324,6 +381,174 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-24T07:25:58.986Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PageAddHome.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageAddHome.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageAddHome.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\PageAddHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T12:44:11.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PageBalance.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T15:36:32.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PageAddCounter.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageAddCounter.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T15:46:04.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClassAllEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassAllEvent.cs",
+              "RelativeDocumentMoniker": "Statistic\\ClassApp\\ClassAllEvent.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassAllEvent.cs",
+              "RelativeToolTip": "Statistic\\ClassApp\\ClassAllEvent.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAgwG8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:55:23.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PageApp\\LocalPageApp\\PageBalance.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageBalance.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T15:41:34.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PageReg.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageReg.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\PageReg.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T09:05:05.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PageLogin.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageLogin.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\PageLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T08:40:08.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\App.xaml",
+              "RelativeDocumentMoniker": "Statistic\\App.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\App.xaml",
+              "RelativeToolTip": "Statistic\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T08:28:25.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClassCorr.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassCorr.cs",
+              "RelativeDocumentMoniker": "Statistic\\ClassApp\\ClassCorr.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\ClassApp\\ClassCorr.cs",
+              "RelativeToolTip": "Statistic\\ClassApp\\ClassCorr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T08:24:28.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PageMenuHome.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageMenuHome.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\PageMenuHome.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowB8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:34:01.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PageMenuHome.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageMenuHome.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageMenuHome.xaml",
+              "RelativeToolTip": "Statistic\\PageApp\\PageMenuHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-24T12:18:52.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PageShowUser.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\LocalPageApp\\PageShowUser.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowCoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T13:34:14.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PageReg.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageReg.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageReg.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\PageReg.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwCsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T09:14:05.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PageLogin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml.cs",
+              "RelativeDocumentMoniker": "Statistic\\PageApp\\PageLogin.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0411\u0435\u043B\u043E\u0447\u043A\u0430\\Statistic\\Statistic\\PageApp\\PageLogin.xaml.cs",
+              "RelativeToolTip": "Statistic\\PageApp\\PageLogin.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T09:12:47.568Z"
             }
           ]
         }

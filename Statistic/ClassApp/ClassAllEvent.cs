@@ -71,21 +71,45 @@ namespace Statistic.ClassApp
     {
         public static Boolean AddNewUser(string _name,string _login,string _password,string _email, byte[] _image)
         {
-            try 
+            try
             {
-            var _new = new Users()
+                var _new = new Users()
+                {
+                    Name = _name,
+                    Login = _login,
+                    password = _password,
+                    Photo = _image,
+                    Email = _email,
+                    Balance = 0,
+                    DateRegist = DateTime.Now.Date.Date,
+                };
+                App.Connection.Users.Add(_new);
+                App.Connection.SaveChanges();
+                MessageBox.Show("Регистрация прошла успешно");
+                return true;
+            }
+            catch (Exception ex)
             {
-                Name = _name,
-                Login = _login,
-                password = _password,
-                Photo = _image,
-                Email = _email,
-                Balance = 0,
-                DateRegist = DateTime.Now.Date.Date,
-            };
-            App.Connection.Users.Add(_new);
-            App.Connection.SaveChanges();
-            MessageBox.Show("Регистрация прошла успешно");
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+    }
+    public class MetersTableWork
+    {
+        public static Boolean AddNewMeters(string _title, decimal _price, int _type)
+        {
+            try
+            {
+                App.Connection.Meters.Add(new Meters()
+                {
+                    Title = _title,
+                    Price = _price,
+                    Type_id = _type,
+                    OBJ_id = ClassCorr.CorrHome.Id_OBJ,
+                });
+                App.Connection.SaveChanges();
+                MessageBox.Show("счетчик добавлен");
                 return true;
             }
             catch (Exception ex)

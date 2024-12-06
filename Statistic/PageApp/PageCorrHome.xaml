@@ -81,19 +81,19 @@
         <Menu>
             <MenuItem x:Name="MIUser">
                 <MenuItem Header="Аккаунт" Click="CLEventShowUser"/>
-                <MenuItem Header="Баланс"/>
+                <MenuItem Header="Баланс" Click="ClEventBalance"/>
                 <MenuItem Header="Выход" Click="ClEventGoLogin"/>
             </MenuItem>
             <MenuItem x:Name="MIHome">
                 <MenuItem Header="Сменить дом" Click="ClEventGoHomeMenu"/>
             </MenuItem>
             <MenuItem Header="Счетчики">
-                <MenuItem Header="Добавить"/>
-                <MenuItem Header="Редактировать"/>
+                <MenuItem Header="Добавить" Click="ClEventAddCaunter"/>
+                <MenuItem Header="Редактировать" Click="ClEventShowCounter"/>
             </MenuItem>
             <MenuItem Header="Показания">
-                <MenuItem Header="подать"/>
-                <MenuItem Header="просмотреть историю"/>
+                <MenuItem Header="подать" Click="ClEventPushParam"/>
+                <MenuItem Header="просмотреть историю" Click="ClEventShowHist"/>
                 <MenuItem Header="выгрузить историю показании"/>
             </MenuItem>
             <MenuItem Header="рекомендации">
@@ -101,8 +101,8 @@
                 <MenuItem Header="Основные рекомендации"/>
             </MenuItem>
             <MenuItem Header="Программа">
-                <MenuItem Header="разработчик"/>
-                <MenuItem Header="использование программы"/>
+                <MenuItem Header="разработчик" Click="ClEventShowCreater"/>
+                <MenuItem Header="использование программы" Click="ClEventOpenGaid"/>
             </MenuItem>
         </Menu>
         <Frame Grid.Row="1" NavigationUIVisibility="Hidden" x:Name="LitleFrame"/>

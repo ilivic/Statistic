@@ -42,7 +42,7 @@
       <PropertyRef Name="Id_RM" />
     </Key>
     <Property Name="Id_RM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Count" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Count" Type="real" Nullable="false" />
     <Property Name="PR_id" Type="int" Nullable="false" />
     <Property Name="Meters_id" Type="int" Nullable="false" />
   </EntityType>

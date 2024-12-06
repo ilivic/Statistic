@@ -9,7 +9,6 @@
         <EntityTypeShape EntityType="StatisticDataBaseModel.OBJ" Width="1.5" PointX="3" PointY="4.625" />
         <EntityTypeShape EntityType="StatisticDataBaseModel.Periods" Width="1.5" PointX="0.75" PointY="5.25" />
         <EntityTypeShape EntityType="StatisticDataBaseModel.PeriodsRead" Width="1.5" PointX="8.25" PointY="4.875" />
-        <EntityTypeShape EntityType="StatisticDataBaseModel.ReadMeters" Width="1.5" PointX="10.5" PointY="5" />
         <EntityTypeShape EntityType="StatisticDataBaseModel.Recommendations" Width="1.5" PointX="13.5" PointY="4.875" />
         <EntityTypeShape EntityType="StatisticDataBaseModel.TypeMeters" Width="1.5" PointX="3" PointY="1.125" />
         <EntityTypeShape EntityType="StatisticDataBaseModel.TypeRecome" Width="1.5" PointX="11.25" PointY="1.875" />
@@ -17,15 +16,16 @@
         <EntityTypeShape EntityType="StatisticDataBaseModel.Users" Width="1.5" PointX="0.75" PointY="0.75" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_Meters_OBJ" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_Meters_TypeMeters" />
-        <AssociationConnector Association="StatisticDataBaseModel.FK_ReadMeters_Meters" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_OBJ_Periods" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_OBJ_Users" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_PeriodsRead_OBJ" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_PeriodsRead_Periods" />
-        <AssociationConnector Association="StatisticDataBaseModel.FK_ReadMeters_PeriodsRead" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_Recommendations_PeriodsRead" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_Recommendations_TypeRecome" />
         <AssociationConnector Association="StatisticDataBaseModel.FK_Recommendations_TypeSpecialRecom" />
+        <EntityTypeShape EntityType="StatisticDataBaseModel.ReadMeters" Width="1.5" PointX="10.5" PointY="5.125" />
+        <AssociationConnector Association="StatisticDataBaseModel.FK_ReadMeters_Meters" />
+        <AssociationConnector Association="StatisticDataBaseModel.FK_ReadMeters_PeriodsRead" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
