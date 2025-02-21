@@ -1,13 +1,13 @@
-﻿<Page x:Class="Statistic.PageApp.PageCorrHome"
+﻿<Page x:Class="Statistic.PageApp.LocalPageApp.PageRecomendation"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Statistic.PageApp"
-      mc:Ignorable="d" 
+      xmlns:local="clr-namespace:Statistic.PageApp.LocalPageApp"
+      mc:Ignorable="d"    
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PageCorrHome">
+      Title="PageRecomendation">
     <Page.Resources>
         <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}">
             <Setter Property="materialDesign:ColorZoneAssist.Mode" Value="Standard"/>
@@ -74,36 +74,40 @@
         </Style>
     </Page.Resources>
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="8*"/>
-        </Grid.RowDefinitions>
-        <Menu>
-            <MenuItem x:Name="MIUser">
-                <MenuItem Header="Аккаунт" Click="CLEventShowUser"/>
-                <MenuItem Header="Баланс" Click="ClEventBalance"/>
-                <MenuItem Header="Выход" Click="ClEventGoLogin"/>
-            </MenuItem>
-            <MenuItem x:Name="MIHome">
-                <MenuItem Header="Сменить дом" Click="ClEventGoHomeMenu"/>
-            </MenuItem>
-            <MenuItem Header="Счетчики">
-                <MenuItem Header="Добавить" Click="ClEventAddCaunter"/>
-                <MenuItem Header="Редактировать" Click="ClEventShowCounter"/>
-            </MenuItem>
-            <MenuItem Header="Показания">
-                <MenuItem Header="подать" Click="ClEventPushParam"/>
-                <MenuItem Header="просмотреть историю" Click="ClEventShowHist"/>
-                <MenuItem Header="выгрузить историю показании" Click="ClEventGetStatic"/>
-            </MenuItem>
-            <MenuItem Header="рекомендации">
-                <MenuItem Header="Плановые рекомендации" Click="ClEventRecomendation"/>
-            </MenuItem>
-            <MenuItem Header="Программа">
-                <MenuItem Header="разработчик" Click="ClEventShowCreater"/>
-                <MenuItem Header="использование программы" Click="ClEventOpenGaid"/>
-            </MenuItem>
-        </Menu>
-        <Frame Grid.Row="1" NavigationUIVisibility="Hidden" x:Name="LitleFrame"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer>
+            <StackPanel>
+            <Label Content="местные рекомендации" ToolTip="повседневные рекомендации"/>
+            <ListView x:Name="ListRec">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Width="250">
+                            <TextBlock Text="{Binding Title}" Foreground="Maroon" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Info}" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="1">
+        <StackPanel x:Name="StackBig" >
+            <Label Content="особые рекомендации" ToolTip="Рекомендации требующие денежных вложений"/>
+            <ListView x:Name="ListSpecRec">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                            <StackPanel Width="250">
+                            <TextBlock Text="{Binding Title}" Foreground="Maroon" TextWrapping="Wrap"/>
+                             <TextBlock Text="{Binding diskription, StringFormat='{}{0}'}" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Price, StringFormat='от {0:n0} Руб'}" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\obj\Debug\
+C:\Users\ilivic\Desktop\Statistic\Statistic\obj\Debug\
 Statistic
 none
 false
 DEBUG;TRACE
-C:\Users\ilivic\Desktop\Белочка\Statistic\Statistic\App.xaml
-141685496942
+C:\Users\ilivic\Desktop\Statistic\Statistic\App.xaml
+151537068332
 2-1480925565
-331058540542
-28696654692
-MainWindow.xaml;PageApp\LocalPageApp\PageAddCounter.xaml;PageApp\LocalPageApp\PageBalance.xaml;PageApp\LocalPageApp\PagePushHistStat.xaml;PageApp\LocalPageApp\PagePushParam.xaml;PageApp\LocalPageApp\PageSaportStat.xaml;PageApp\LocalPageApp\PageShowCounter.xaml;PageApp\LocalPageApp\PageShowUser.xaml;PageApp\PageAddHome.xaml;PageApp\PageCorrHome.xaml;PageApp\PageLogin.xaml;PageApp\PageMenuHome.xaml;PageApp\PageReg.xaml;WindowCreater.xaml;
+34-1631076288
+30-1555392262
+MainWindow.xaml;PageApp\LocalPageApp\PageAddCounter.xaml;PageApp\LocalPageApp\PageBalance.xaml;PageApp\LocalPageApp\PagePushHistStat.xaml;PageApp\LocalPageApp\PagePushParam.xaml;PageApp\LocalPageApp\PageRecomendation.xaml;PageApp\LocalPageApp\PageSaportStat.xaml;PageApp\LocalPageApp\PageShowCounter.xaml;PageApp\LocalPageApp\PageShowUser.xaml;PageApp\PageAddHome.xaml;PageApp\PageCorrHome.xaml;PageApp\PageLogin.xaml;PageApp\PageMenuHome.xaml;PageApp\PageReg.xaml;WindowCreater.xaml;
 
 False
 

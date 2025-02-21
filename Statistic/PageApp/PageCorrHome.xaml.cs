@@ -84,5 +84,22 @@ namespace Statistic.PageApp
         {
             LitleFrame.NavigationService.Navigate(new LocalPageApp.PagePushHistStat());
         }
+
+        private void ClEventGetStatic(object sender, RoutedEventArgs e)
+        {
+            try 
+            {
+                ClassApp.Statist.InsertText();
+            }
+            catch 
+            {
+                MessageBox.Show("Что-то пошло не так, попробуйте позднее", "что-то не так...");
+            }
+        }
+
+        private void ClEventRecomendation(object sender, RoutedEventArgs e)
+        {
+            LitleFrame.NavigationService.Navigate(new LocalPageApp.PageRecomendation());
+        }
     }
 }
